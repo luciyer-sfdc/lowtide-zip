@@ -17,8 +17,7 @@ const settings = {
     staging : root + "/staging/temp",
     beta : root + "/staging/beta",
     master : root + "/staging/master",
-    static : root + "/staging/static",
-    zips : root + "/staging/zips"
+    static : root + "/staging/static"
   },
   bucket : {
     name: "ac-template-repo",
