@@ -27,11 +27,11 @@ AWS_SECRET_ACCESS_KEY=XXXXXX
 
 ## Usage
 
-Download templates from beta or master:
+Download templates from beta or master (for inspection, dev, etc.):
 ```
 lt-download --branch [beta|master]
 ```
-Download, Zip, and Upload templates from beta or master (optionally, show output).
+Download, zip, and upload templates from beta or master (optionally, show output).
 ```
 lt-update --branch [beta|master] [--verbose]
 ```
