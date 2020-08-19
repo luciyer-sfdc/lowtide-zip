@@ -9,7 +9,7 @@ First, Clone this repo, cd to project directory, and install.
 ```
 $ git clone https://github.com/luciyer-sfdc/lowtide-zip.git
 $ cd lowtide-zip/
-$ npm install -g
+$ npm install
 ```
 
 Now,
