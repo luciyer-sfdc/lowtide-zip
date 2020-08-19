@@ -1,0 +1,35 @@
+{
+	"name": "lowtide-zips",
+	"version": "1.0.0",
+	"description": "Pull from git repo, zip templates, upload to S3.",
+	"license": "ISC",
+	"repository": "",
+	"author": {
+		"name": "Luc Iyer",
+		"email": "luciyer@gmail.com",
+		"url": "https://luciyer.me"
+	},
+	"bin": {
+		"lt-download": "bin/download",
+		"lt-update": "bin/update"
+	},
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": ""
+	},
+	"keywords": [
+		"cli",
+		"lowtide"
+	],
+	"dependencies": {
+		"archiver": "^5.0.0",
+		"aws-sdk": "^2.736.0",
+		"dotenv": "^8.2.0",
+		"github-download": "^0.5.0",
+		"minimist": "^1.2.5",
+		"ncp": "^2.0.0",
+		"xmlbuilder2": "^2.3.1"
+	}
+}
