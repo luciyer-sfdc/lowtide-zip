@@ -1,13 +1,12 @@
 {
-	"name": "lowtide-zips",
+	"name": "lowtide-zip",
 	"version": "1.0.0",
 	"description": "Pull from git repo, zip templates, upload to S3.",
 	"license": "ISC",
 	"repository": "",
 	"author": {
 		"name": "Luc Iyer",
-		"email": "luciyer@gmail.com",
-		"url": "https://luciyer.me"
+		"email": "luciyer@gmail.com"
 	},
 	"bin": {
 		"lt-download": "bin/download",
