@@ -2,7 +2,7 @@
 
 Download templates, zip each individually with static resources, and upload to S3.
 
-## Getting started
+## Setup
 
 First, Clone this repo, cd to project directory, and install.
 
@@ -10,15 +10,15 @@ First, Clone this repo, cd to project directory, and install.
 $ git clone https://github.com/luciyer-sfdc/lowtide-zip.git
 $ cd lowtide-zip/
 $ npm install
+$ npm i -g
 ```
 
-Now,
+To be able to run `lt-update`, do the following:
 ```
 $ touch .env
 ```
 
-and add values for:
-
+And add...
 ```
 AWS_ACCESS_KEY_ID=XXXXXX
 AWS_SECRET_ACCESS_KEY=XXXXXX
