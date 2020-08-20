@@ -23,7 +23,8 @@ const settings = {
     name: "ac-template-repo",
     folders : {
       beta : "beta/",
-      master : "master/"
+      master : "master/",
+      manifest: "manifest/"
     }
   }
 }
